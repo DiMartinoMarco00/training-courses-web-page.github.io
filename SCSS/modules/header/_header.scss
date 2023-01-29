@@ -1,0 +1,51 @@
+header
+{
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo
+{
+    margin-top: 30px;
+    width: 100px;
+}
+
+.header-text
+{
+    max-width: 350px;
+    margin-top: 140px;
+
+    h1
+    {
+        font-size: 34px;
+    }
+
+    button
+    {
+        margin-top: 20px;
+        margin-bottom: 16px
+    }
+}
+
+
+@media only screen and (max-width: 767px) 
+{
+    #header 
+    {
+        background-image: none;
+        margin-bottom: 100px;
+    }
+
+    .logo
+    {
+        margin-top: 20px;
+        width: 70px;
+    }
+
+    .header-text
+    {
+        margin-top: 70px;
+    }
+}

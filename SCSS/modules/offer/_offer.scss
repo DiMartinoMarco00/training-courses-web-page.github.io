@@ -1,0 +1,20 @@
+#offer
+{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    button
+    {
+        margin: 30px 0px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    #offer
+    {
+        padding: 50px;
+    }
+}

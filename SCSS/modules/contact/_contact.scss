@@ -1,0 +1,59 @@
+.contact-row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-left-col, .contact-right-col
+{
+    flex-basis: 50%;
+
+    img
+    {
+        width: 100%;
+    }
+}
+
+form
+{
+    max-width: 350px;
+    margin: 30px 0px;
+
+    input
+    {
+        width: 100%;
+        padding: 12px 10px;
+        margin-bottom: 5px;
+        outline: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        border: 2px solid #fab3c4;
+    }
+}
+
+.btn-box
+{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+
+   button
+   {
+       flex-basis: 48%;
+       padding: 18px 0px;
+   }
+}
+
+@media only screen and (max-width: 767px) 
+{
+    .contact-left-col, .contact-right-col
+    {
+        flex-basis: 100%;
+    }
+
+    .contact-right-col
+    {
+        margin-top: 50px;
+    }
+}

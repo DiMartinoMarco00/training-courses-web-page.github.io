@@ -1,0 +1,29 @@
+#navbar
+{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0px;
+    background-color: $pink-color;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+nav 
+{
+    ul
+    {
+        li
+        {
+            list-style: none;
+            margin: 50px 20px;
+
+            a
+            {
+               text-decoration: none;
+               color: #fff;
+            }
+        }
+    } 
+}

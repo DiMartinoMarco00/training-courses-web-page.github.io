@@ -1,0 +1,110 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+hr
+{
+    width: 100%;
+    border: 0px;
+    border-top: 1px solid $pink-color;
+}
+
+p
+{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+
+.container
+{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#menu-btn
+{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.square
+{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: $pink-color;
+    margin: 15px 0px;
+}
+
+.common-btn
+{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid $pink-color;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.line-1
+{
+    width: 15px;
+    height: 15px;
+    background-color: $pink-color;
+    display: inline-block;
+}
+
+.line-2
+{
+    width: 80px;
+    height: 1px;
+    background-color: $pink-color;
+    display: inline-block;
+}
+
+.line-3
+{
+    width: 60px;
+    height: 1px;
+    background-color: $pink-color;
+    display: inline-block;
+}
+
+.line
+{
+    line-height: 8px;
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    .container 
+    {
+        margin-left:  50px;
+        margin-right: 50px;
+    }
+
+    h1 
+    {
+        font-size: 25px !important;
+    }
+
+    .common-btn 
+    {
+        padding: 10px 16px;
+    }
+
+    #menu-btn 
+    {
+        width: 40px;
+        right: 50px;
+    }
+}
